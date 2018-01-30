@@ -713,3 +713,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1cubgHWKAnXlF1UTLVQZqE4A/WmKcrU1K2t5FvqqD
 [   46.274655] cloud-init[1354]: Cloud-init v. 17.1 finished at Tue, 30 Jan 2018 09:44:24 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 46.11 seconds
 [[0;32m  OK  [0m] Removed slice User Slice of vagrant.
 [[0;32m  OK  [0m] Reached target Cloud-init target.
+
+Ubuntu 16.04.3 LTS ubuntu-xenial ttyS0
+
+ubuntu-xenial login: 

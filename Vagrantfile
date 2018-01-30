@@ -9,5 +9,6 @@ Vagrant.configure("2") do |config|
     config.vm.network "private_network", ip: "192.168.10.150"
     config.hostsupdater.aliases = ["database.local"]
     config.vm.network "forwarded_port", guest: 27019, host: 27019
+    config.vm.synced_folder "./environment/db", "/home/ubuntu/db"
     config.vm.provision "shell", path: "environment/db/provision.sh", privileged: true
 end
